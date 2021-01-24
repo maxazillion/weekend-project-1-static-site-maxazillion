@@ -1,9 +1,10 @@
 body {
   background: url("https://9to5mac.com/wp-content/uploads/sites/6/2020/10/The-Lake-7-dragged.jpg?quality=82&strip=all&w=1000")
     no-repeat center center fixed;
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
-  width: 100vw;
 }
 
 .headerDiv {
@@ -14,7 +15,9 @@ body {
 
 a {
   background: rgb(219, 111, 111);
+  border: 5px inset rgb(158, 78, 78);
   border-radius: 10px;
+  color: black;
   display: flex;
   justify-content: center;
   padding: 10px;
@@ -24,13 +27,24 @@ a {
 
 .textBubble {
   background-color: rgb(236, 188, 188);
-  border-radius: 10px;
-  display: inline-block;
+  border: 5px outset rgb(158, 78, 78);
+  border-radius: 20px;
+  margin-top: 20px;
+  max-width: 100%;
+  padding: 3px;
+}
+
+.msgBubble {
+  background-color: rgb(236, 188, 188);
+  border: 5px outset rgb(158, 78, 78);
+  border-radius: 20px;
+  margin-top: 20px;
+  max-width: 100%;
   padding: 10px;
 }
 
 img {
-  border: 3px solid rgb(230, 14, 230); /* Gray border */
+  border: 3px solid rgb(238, 122, 76); /* Gray border */
   border-radius: 25px; /* Rounded border */
   width: 150px; /* Set a small width */
 }
@@ -39,7 +53,22 @@ img {
   background-color: #7b06bf;
   background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23390a54' fill-opacity='0.4'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
   bottom: 0;
+  margin-top: 50px;
   opacity: 0.7;
-  position: absolute;
+  position: relative;
   width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+footer {
+  border-top-color: rgb(10, 10, 10);
+  border-top-style: solid;
+  border-top-width: 3px;
+  bottom: 0;
+  height: 60px;
+  margin-bottom: 4px;
+  margin-top: 10px;
 }
