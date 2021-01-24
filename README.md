@@ -25,4 +25,4 @@ as well as give potential employers an understanding of my background.
 - adjust contents of resume for a better overall picture of myself
 - maybe search for a better color scheme
 
-[![](https://i.imgur.com/K5FLYZB.png)]()
+[![](https://i.imgur.com/K5FLYZB.png)](https://resume-jason-first.netlify.app/)
