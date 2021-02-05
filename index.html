@@ -35,6 +35,7 @@
     <div class="backgroundTopo">
       <main>
         <section>
+          <!-- todo: text-align: center in the section or all divs-->
           <div class="textBubble">
             <h2>My Resumé</h2>
           </div>
@@ -49,7 +50,7 @@
             </ul>
           </div>
           <div class="textBubble">
-            <h2>Programing Classes</h2>
+            <h3>Programing Classes</h3>
             <ul>
               <li>NHTI Intro to c++</li>
               <li>NHTI Data Structures</li>
@@ -57,7 +58,7 @@
             </ul>
           </div>
           <div class="textBubble">
-            <h2>Programing Languages</h2>
+            <h3>Programing Languages</h3>
             <ul>
               <li>C++</li>
               <li>C#</li>
@@ -67,7 +68,7 @@
           </div>
         </section>
         <div class="textBubble">
-          <h2>Contact</h2>
+          <h3>Contact</h3>
           <form action=""></form>
           <h4>Jason Rodgers</h4>
           <h4>Phone: (603)555-5555</h4>
@@ -75,13 +76,18 @@
         </div>
         <div class="msgBubble">
           <form>
-            <input name="msg" type="text" placeholder="Type a message" />
+            <input
+              name="msg"
+              id="msg"
+              type="text"
+              placeholder="Type a message"
+            />
+            <input type="radio" id="Work" name="work" value="work" />
+            <label for="work">Work related</label><br />
+            <input type="radio" id="work1" name="work1" value="work1" />
+            <label for="work1">Personal</label><br />
+            <button class="btn btn-info" type="submit">Send message</button>
           </form>
-          <input type="radio" id="Work" name="work" value="work" />
-          <label for="work">Work related</label><br />
-          <input type="radio" id="work1" name="work1" value="work1" />
-          <label for="work1">Personal</label><br />
-          <button class="btn btn-info" type="submit">Send message</button>
         </div>
       </main>
 
